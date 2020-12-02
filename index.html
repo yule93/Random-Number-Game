@@ -7,8 +7,14 @@
 
   <body>
     <h1>Random Number Game</h1>
-    <h2></h2>
-    <input type="range" />
+    <h2 class="between-number">Generate a number between</h2>
+    <input type="range" class="random-slider" />
+    <div>
+      Guess the number: <input type="number" min="0" class="choose-number" />
+      <input type="button" value="Play!" />
+    </div>
+    <div class="js-result"></div>
+
     <script src="src/index.js"></script>
   </body>
 </html>

@@ -1,2 +1,5 @@
 # Random-Number-Game
-Created with CodeSandbox
+
+Caculator with four operatoers on webapp!
+ - four operators (additive, subtraction, multiple, division)
+ - I love pastel tone (ㅎㅎ)

@@ -23,7 +23,7 @@ function selectRange() {
 
 function clickPlay() {
   const max = sliderVal.value; // 최대값 받아오기
-  const myChosen = chooseNumber.value;
+  const myChosen = parseInt(chooseNumber.value);
   const machineChosen = Math.floor(Math.random() * max); // 난수 발생
   if (myChosen === machineChosen) {
     vsResult.innerHTML =
